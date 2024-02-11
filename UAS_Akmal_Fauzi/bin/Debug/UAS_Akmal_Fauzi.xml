@@ -15,6 +15,10 @@ UAS_Akmal_Fauzi
   Overrides the current thread's CurrentUICulture property for all
   resource lookups using this strongly typed resource class.
 </summary>
+</member><member name="P:UAS_Akmal_Fauzi.My.Resources.Resources.android_chrome_192x192">
+	<summary>
+  Looks up a localized resource of type System.Drawing.Bitmap.
+</summary>
 </member><member name="P:UAS_Akmal_Fauzi.My.Resources.Resources.Background_Application">
 	<summary>
   Looks up a localized resource of type System.Drawing.Bitmap.

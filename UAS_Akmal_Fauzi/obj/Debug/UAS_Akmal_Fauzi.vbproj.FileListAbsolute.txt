@@ -8,3 +8,4 @@ C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_F
 C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.exe
 C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.xml
 C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.pdb
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.FormLogin.resources
