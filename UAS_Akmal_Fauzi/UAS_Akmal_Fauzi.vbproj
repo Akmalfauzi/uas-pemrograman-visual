@@ -76,6 +76,12 @@
     <Compile Include="FormLogin.vb">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="FormMasterDokter.Designer.vb">
+      <DependentUpon>FormMasterDokter.vb</DependentUpon>
+    </Compile>
+    <Compile Include="FormMasterDokter.vb">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="FormMenuUtama.vb">
       <SubType>Form</SubType>
     </Compile>
@@ -103,6 +109,9 @@
   <ItemGroup>
     <EmbeddedResource Include="FormLogin.resx">
       <DependentUpon>FormLogin.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMasterDokter.resx">
+      <DependentUpon>FormMasterDokter.vb</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="FormMenuUtama.resx">
       <DependentUpon>FormMenuUtama.vb</DependentUpon>

@@ -54,24 +54,24 @@ Partial Class FormMenuUtama
         '
         Me.LoginToolStripMenuItem.Name = "LoginToolStripMenuItem"
         Me.LoginToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F5
-        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.LoginToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
         Me.LoginToolStripMenuItem.Text = "Login"
         '
         'LogoutToolStripMenuItem
         '
         Me.LogoutToolStripMenuItem.Name = "LogoutToolStripMenuItem"
-        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.LogoutToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
         Me.LogoutToolStripMenuItem.Text = "Logout"
         '
         'ToolStripMenuItem1
         '
         Me.ToolStripMenuItem1.Name = "ToolStripMenuItem1"
-        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(149, 6)
+        Me.ToolStripMenuItem1.Size = New System.Drawing.Size(120, 6)
         '
         'ExitToolStripMenuItem
         '
         Me.ExitToolStripMenuItem.Name = "ExitToolStripMenuItem"
-        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
+        Me.ExitToolStripMenuItem.Size = New System.Drawing.Size(123, 22)
         Me.ExitToolStripMenuItem.Text = "Exit"
         '
         'MasterToolStripMenuItem
@@ -84,7 +84,8 @@ Partial Class FormMenuUtama
         'DokterToolStripMenuItem
         '
         Me.DokterToolStripMenuItem.Name = "DokterToolStripMenuItem"
-        Me.DokterToolStripMenuItem.Size = New System.Drawing.Size(109, 22)
+        Me.DokterToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F3
+        Me.DokterToolStripMenuItem.Size = New System.Drawing.Size(152, 22)
         Me.DokterToolStripMenuItem.Text = "Dokter"
         '
         'FormMenuUtama

@@ -21,4 +21,9 @@
     Private Sub LoginToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles LoginToolStripMenuItem.Click
         FormLogin.Show()
     End Sub
+
+    'Jika Menu Master - Dokter diklik maka akan memunculkan form master dokter
+    Private Sub DokterToolStripMenuItem_Click(sender As Object, e As EventArgs) Handles DokterToolStripMenuItem.Click
+        FormMasterDokter.Show()
+    End Sub
 End Class
