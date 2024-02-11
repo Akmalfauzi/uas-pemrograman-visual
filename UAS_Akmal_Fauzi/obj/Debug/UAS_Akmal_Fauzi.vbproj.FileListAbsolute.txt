@@ -1,1 +1,10 @@
 c:\users\akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\bin\Debug\UAS_Akmal_Fauzi.exe.config
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\bin\Debug\UAS_Akmal_Fauzi.exe
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\bin\Debug\UAS_Akmal_Fauzi.pdb
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\bin\Debug\UAS_Akmal_Fauzi.xml
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.FormMenuUtama.resources
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.Resources.resources
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.vbproj.GenerateResource.Cache
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.exe
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.xml
+C:\Users\Akmal\documents\visual studio 2013\Projects\UAS_Akmal_Fauzi\UAS_Akmal_Fauzi\obj\Debug\UAS_Akmal_Fauzi.pdb
