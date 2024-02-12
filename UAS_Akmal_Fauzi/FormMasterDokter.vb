@@ -32,7 +32,7 @@ Public Class FormMasterDokter
         Rd.Read()
         If Rd.HasRows Then
 
-            If Rd.Item("jenis_kelamin") = "0" Then
+            If Rd.Item("jenis_kelamin") = "Laki-Laki" Then
                 RadioButtonLakiLaki_Akmal.Checked = True
             Else
                 RadioButtonPerempuan_Akmal.Checked = True
@@ -216,7 +216,7 @@ Public Class FormMasterDokter
         End If
     End Sub
 
-    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+    Private Sub ButtonDeleteAkmal_Click(sender As Object, e As EventArgs) Handles ButtonDelete_Akmal.Click
         If ValidateForm() = False Then
             MessageBox.Show("Pastikan Semua Field diisi! ")
         Else
@@ -248,7 +248,7 @@ Public Class FormMasterDokter
     End Sub
 
     Private Sub ButtonResetCari_Akmal_Click(sender As Object, e As EventArgs) Handles ButtonResetCari_Akmal.Click
-        TxtIDDokter_Akmal.Text = ""
+        TxtCari_Akmal.Text = ""
         Call GetDataDokter()
     End Sub
 End Class

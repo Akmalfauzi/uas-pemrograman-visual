@@ -37,23 +37,23 @@ Partial Class FormMasterDokter
         Me.TxtAlamat_Akmal = New System.Windows.Forms.TextBox()
         Me.MaskedTxtNoTelepon_Akmal = New System.Windows.Forms.MaskedTextBox()
         Me.PanelDataDokter_Akmal = New System.Windows.Forms.Panel()
+        Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.ButtonResetCari_Akmal = New System.Windows.Forms.Button()
+        Me.ButtonCari_Akmal = New System.Windows.Forms.Button()
+        Me.Label7 = New System.Windows.Forms.Label()
+        Me.TxtCari_Akmal = New System.Windows.Forms.TextBox()
         Me.PanelFormDokter_Akmal = New System.Windows.Forms.Panel()
-        Me.Button1 = New System.Windows.Forms.Button()
+        Me.ButtonDelete_Akmal = New System.Windows.Forms.Button()
         Me.ButtonEdit_Akmal = New System.Windows.Forms.Button()
         Me.ButtonClear_Akmal = New System.Windows.Forms.Button()
         Me.ButtonSave_Akmal = New System.Windows.Forms.Button()
         Me.ButtonHideForm_Akmal = New System.Windows.Forms.Button()
         Me.DataGridView_Akmal = New System.Windows.Forms.DataGridView()
         Me.ButtonShowForm_Akmal = New System.Windows.Forms.Button()
-        Me.Panel1 = New System.Windows.Forms.Panel()
-        Me.TxtCari_Akmal = New System.Windows.Forms.TextBox()
-        Me.Label7 = New System.Windows.Forms.Label()
-        Me.ButtonCari_Akmal = New System.Windows.Forms.Button()
-        Me.ButtonResetCari_Akmal = New System.Windows.Forms.Button()
         Me.PanelDataDokter_Akmal.SuspendLayout()
+        Me.Panel1.SuspendLayout()
         Me.PanelFormDokter_Akmal.SuspendLayout()
         CType(Me.DataGridView_Akmal, System.ComponentModel.ISupportInitialize).BeginInit()
-        Me.Panel1.SuspendLayout()
         Me.SuspendLayout()
         '
         'Label1
@@ -182,10 +182,62 @@ Partial Class FormMasterDokter
         Me.PanelDataDokter_Akmal.Size = New System.Drawing.Size(932, 611)
         Me.PanelDataDokter_Akmal.TabIndex = 14
         '
+        'Panel1
+        '
+        Me.Panel1.BackColor = System.Drawing.Color.White
+        Me.Panel1.Controls.Add(Me.ButtonResetCari_Akmal)
+        Me.Panel1.Controls.Add(Me.ButtonCari_Akmal)
+        Me.Panel1.Controls.Add(Me.Label7)
+        Me.Panel1.Controls.Add(Me.TxtCari_Akmal)
+        Me.Panel1.Location = New System.Drawing.Point(490, 26)
+        Me.Panel1.Name = "Panel1"
+        Me.Panel1.Size = New System.Drawing.Size(408, 56)
+        Me.Panel1.TabIndex = 17
+        '
+        'ButtonResetCari_Akmal
+        '
+        Me.ButtonResetCari_Akmal.BackColor = System.Drawing.Color.Red
+        Me.ButtonResetCari_Akmal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonResetCari_Akmal.ForeColor = System.Drawing.Color.White
+        Me.ButtonResetCari_Akmal.Location = New System.Drawing.Point(314, 17)
+        Me.ButtonResetCari_Akmal.Name = "ButtonResetCari_Akmal"
+        Me.ButtonResetCari_Akmal.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonResetCari_Akmal.TabIndex = 15
+        Me.ButtonResetCari_Akmal.Text = "Reset"
+        Me.ButtonResetCari_Akmal.UseVisualStyleBackColor = False
+        '
+        'ButtonCari_Akmal
+        '
+        Me.ButtonCari_Akmal.BackColor = System.Drawing.Color.DarkSlateBlue
+        Me.ButtonCari_Akmal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonCari_Akmal.ForeColor = System.Drawing.Color.White
+        Me.ButtonCari_Akmal.Location = New System.Drawing.Point(226, 16)
+        Me.ButtonCari_Akmal.Name = "ButtonCari_Akmal"
+        Me.ButtonCari_Akmal.Size = New System.Drawing.Size(75, 23)
+        Me.ButtonCari_Akmal.TabIndex = 15
+        Me.ButtonCari_Akmal.Text = "Cari"
+        Me.ButtonCari_Akmal.UseVisualStyleBackColor = False
+        '
+        'Label7
+        '
+        Me.Label7.AutoSize = True
+        Me.Label7.Location = New System.Drawing.Point(18, 22)
+        Me.Label7.Name = "Label7"
+        Me.Label7.Size = New System.Drawing.Size(25, 13)
+        Me.Label7.TabIndex = 15
+        Me.Label7.Text = "Cari"
+        '
+        'TxtCari_Akmal
+        '
+        Me.TxtCari_Akmal.Location = New System.Drawing.Point(56, 19)
+        Me.TxtCari_Akmal.Name = "TxtCari_Akmal"
+        Me.TxtCari_Akmal.Size = New System.Drawing.Size(155, 20)
+        Me.TxtCari_Akmal.TabIndex = 18
+        '
         'PanelFormDokter_Akmal
         '
         Me.PanelFormDokter_Akmal.BackColor = System.Drawing.Color.White
-        Me.PanelFormDokter_Akmal.Controls.Add(Me.Button1)
+        Me.PanelFormDokter_Akmal.Controls.Add(Me.ButtonDelete_Akmal)
         Me.PanelFormDokter_Akmal.Controls.Add(Me.ButtonEdit_Akmal)
         Me.PanelFormDokter_Akmal.Controls.Add(Me.ButtonClear_Akmal)
         Me.PanelFormDokter_Akmal.Controls.Add(Me.ButtonSave_Akmal)
@@ -209,18 +261,18 @@ Partial Class FormMasterDokter
         Me.PanelFormDokter_Akmal.TabIndex = 0
         Me.PanelFormDokter_Akmal.Visible = False
         '
-        'Button1
+        'ButtonDelete_Akmal
         '
-        Me.Button1.BackColor = System.Drawing.Color.Red
-        Me.Button1.FlatAppearance.BorderSize = 0
-        Me.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.Button1.ForeColor = System.Drawing.Color.White
-        Me.Button1.Location = New System.Drawing.Point(167, 388)
-        Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 30)
-        Me.Button1.TabIndex = 2
-        Me.Button1.Text = "Delete"
-        Me.Button1.UseVisualStyleBackColor = False
+        Me.ButtonDelete_Akmal.BackColor = System.Drawing.Color.Red
+        Me.ButtonDelete_Akmal.FlatAppearance.BorderSize = 0
+        Me.ButtonDelete_Akmal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
+        Me.ButtonDelete_Akmal.ForeColor = System.Drawing.Color.White
+        Me.ButtonDelete_Akmal.Location = New System.Drawing.Point(167, 388)
+        Me.ButtonDelete_Akmal.Name = "ButtonDelete_Akmal"
+        Me.ButtonDelete_Akmal.Size = New System.Drawing.Size(75, 30)
+        Me.ButtonDelete_Akmal.TabIndex = 2
+        Me.ButtonDelete_Akmal.Text = "Delete"
+        Me.ButtonDelete_Akmal.UseVisualStyleBackColor = False
         '
         'ButtonEdit_Akmal
         '
@@ -294,58 +346,6 @@ Partial Class FormMasterDokter
         Me.ButtonShowForm_Akmal.Text = "Show Form"
         Me.ButtonShowForm_Akmal.UseVisualStyleBackColor = False
         '
-        'Panel1
-        '
-        Me.Panel1.BackColor = System.Drawing.Color.White
-        Me.Panel1.Controls.Add(Me.ButtonResetCari_Akmal)
-        Me.Panel1.Controls.Add(Me.ButtonCari_Akmal)
-        Me.Panel1.Controls.Add(Me.Label7)
-        Me.Panel1.Controls.Add(Me.TxtCari_Akmal)
-        Me.Panel1.Location = New System.Drawing.Point(490, 26)
-        Me.Panel1.Name = "Panel1"
-        Me.Panel1.Size = New System.Drawing.Size(408, 56)
-        Me.Panel1.TabIndex = 17
-        '
-        'TxtCari_Akmal
-        '
-        Me.TxtCari_Akmal.Location = New System.Drawing.Point(56, 19)
-        Me.TxtCari_Akmal.Name = "TxtCari_Akmal"
-        Me.TxtCari_Akmal.Size = New System.Drawing.Size(155, 20)
-        Me.TxtCari_Akmal.TabIndex = 18
-        '
-        'Label7
-        '
-        Me.Label7.AutoSize = True
-        Me.Label7.Location = New System.Drawing.Point(18, 22)
-        Me.Label7.Name = "Label7"
-        Me.Label7.Size = New System.Drawing.Size(25, 13)
-        Me.Label7.TabIndex = 15
-        Me.Label7.Text = "Cari"
-        '
-        'ButtonCari_Akmal
-        '
-        Me.ButtonCari_Akmal.BackColor = System.Drawing.Color.DarkSlateBlue
-        Me.ButtonCari_Akmal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ButtonCari_Akmal.ForeColor = System.Drawing.Color.White
-        Me.ButtonCari_Akmal.Location = New System.Drawing.Point(226, 16)
-        Me.ButtonCari_Akmal.Name = "ButtonCari_Akmal"
-        Me.ButtonCari_Akmal.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonCari_Akmal.TabIndex = 15
-        Me.ButtonCari_Akmal.Text = "Cari"
-        Me.ButtonCari_Akmal.UseVisualStyleBackColor = False
-        '
-        'ButtonResetCari_Akmal
-        '
-        Me.ButtonResetCari_Akmal.BackColor = System.Drawing.Color.Red
-        Me.ButtonResetCari_Akmal.FlatStyle = System.Windows.Forms.FlatStyle.Flat
-        Me.ButtonResetCari_Akmal.ForeColor = System.Drawing.Color.White
-        Me.ButtonResetCari_Akmal.Location = New System.Drawing.Point(314, 17)
-        Me.ButtonResetCari_Akmal.Name = "ButtonResetCari_Akmal"
-        Me.ButtonResetCari_Akmal.Size = New System.Drawing.Size(75, 23)
-        Me.ButtonResetCari_Akmal.TabIndex = 15
-        Me.ButtonResetCari_Akmal.Text = "Reset"
-        Me.ButtonResetCari_Akmal.UseVisualStyleBackColor = False
-        '
         'FormMasterDokter
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
@@ -358,11 +358,11 @@ Partial Class FormMasterDokter
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Form Data Master Dokter"
         Me.PanelDataDokter_Akmal.ResumeLayout(False)
+        Me.Panel1.ResumeLayout(False)
+        Me.Panel1.PerformLayout()
         Me.PanelFormDokter_Akmal.ResumeLayout(False)
         Me.PanelFormDokter_Akmal.PerformLayout()
         CType(Me.DataGridView_Akmal, System.ComponentModel.ISupportInitialize).EndInit()
-        Me.Panel1.ResumeLayout(False)
-        Me.Panel1.PerformLayout()
         Me.ResumeLayout(False)
 
     End Sub
@@ -387,7 +387,7 @@ Partial Class FormMasterDokter
     Friend WithEvents ButtonSave_Akmal As System.Windows.Forms.Button
     Friend WithEvents ButtonClear_Akmal As System.Windows.Forms.Button
     Friend WithEvents ButtonEdit_Akmal As System.Windows.Forms.Button
-    Friend WithEvents Button1 As System.Windows.Forms.Button
+    Friend WithEvents ButtonDelete_Akmal As System.Windows.Forms.Button
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents Label7 As System.Windows.Forms.Label
     Friend WithEvents TxtCari_Akmal As System.Windows.Forms.TextBox
